@@ -30,5 +30,5 @@ for review in reviews:
             node = node.next
     for k,v in word_count.items():
         print(str(k) + ':' + str(v) + ' ',end='')
-        word_count = {}
     print()
+    word_count = {}
